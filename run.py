@@ -1147,15 +1147,9 @@ def loginemad():
 	banner()
 	m=input("╚═➣ Enter passowrd : ")
 	if m == ("emad2001","Emad2001"):
-		wel = '# OK LOGIN '
-        wel2 = mark(wel, style='green')
-        sol().print(wel2)
         sleep.time(3)
 		login_kamu()
 	else:
-		wel = '# NO LOGIN '
-        wel2 = mark(wel, style='red')
-        sol().print(wel2)
         sleep.time(3)
         loginemad()
 		
