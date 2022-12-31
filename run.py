@@ -184,17 +184,9 @@ def jalan(keliling):
 # BANNER
 def banner():
 	clear()
-	au=f"""
- [green] 
-\t    __  __________________         _____   ________________ 
-\t   /  |/  / ____/_  __/   |       /  _/ | / / ___/_  __/   |
-\t  / /|_/ / __/   / / / /| |______ / //  |/ /\__ \ / / / /| |
-\t / /  / / /___  / / / ___ /_____// // /|  /___/ // / / ___ |
-\t/_/  /_/_____/ /_/ /_/  |_|    /___/_/ |_//____//_/ /_/  |_|
-
-[cyan]\t[MULTI BRUTEFORCE INSTAGRAM]\t\t[VERSION : BETA.0.1]
-"""
-	sol().print(nel(au,style='cyan',title=f'{waktu()}'))
+	wel = '# 𝑯𝑨𝑪𝑲𝑬𝑹 𝑭𝑶𝑹 𝑰𝑵𝑺𝑻𝑨𝑮𝑹𝑨𝑴\n𝑻𝑶𝑶𝑳𝑺 𝑬𝑴𝑨𝑫\n𝐃𝐀𝐓𝐄 𝟏/𝟏/𝟐𝟎𝟐𝟑'
+    wel2 = mark(wel, style='green')
+    sol().print(wel2)
 def loadinglisen():
     animation = ["[\x1b[1;91m■\x1b[0m□□□□□□□□□]","[\x1b[1;92m■■\x1b[0m□□□□□□□□]", "[\x1b[1;93m■■■\x1b[0m□□□□□□□]", "[\x1b[1;94m■■■■\x1b[0m□□□□□□]", "[\x1b[1;95m■■■■■\x1b[0m□□□□□]", "[\x1b[1;96m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
     for i in range(50):
@@ -287,10 +279,11 @@ def login_kamu():
             loginpil=("1")
             if loginpil=='1':
                 wel = '# LOGIN INSTAGRAM COOKIE'
-                wel2 = mark(wel, style='yellow')
+                wel2 = mark(wel, style='green')
                 sol().print(wel2)
-                us=input(f' [•] Enter user instagram : ')
-                cok=input(f' [•] Enter cookie : ')
+                us=input(f' ╚═➣ 𝑬𝑵𝑻𝑬𝑹 𝑼𝑺𝑬𝑹 : ')
+                cok=input(f' ╚═➣ 𝑬𝑵𝑻𝑬𝑹 𝑪𝑶𝑶𝑲𝑰𝑬 : ')
+                print("\n")
                 kuki=open('.kukis.log','w').write(cok)
                 user=open('.username','w').write(us)
                 for step in track(range(5)):
