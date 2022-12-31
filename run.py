@@ -1143,6 +1143,25 @@ def massal(self):
 			info=self.infoAPI(self.cookie,'https://i.instagram.com/api/v1/friendships/%s/followers/?count=100000',id)
 			self.passwordAPI(info)
 
+def loginemad():
+	mas='[!] LOGIN PASSOWRD SISTEM'
+    mas1=nel(mas,style='')
+	sol().print(mas1)
+	m=input("╚═➣ Enter passowrd : ")
+	if m == ("emad2001","Emad2001"):
+		wel = '# OK LOGIN '
+        wel2 = mark(wel, style='green')
+        sol().print(wel2)
+        sleep.time(3)
+		login_kamu()
+	else:
+		wel = '# NO LOGIN '
+        wel2 = mark(wel, style='red')
+        sol().print(wel2)
+        sleep.time(3)
+        loginemad()
+		
+	
 def register_device():
 	while True:
 		clear()
@@ -1174,6 +1193,6 @@ def register_device():
 
 if __name__=='__main__':
 	try:
-		login_kamu()
+		loginemad()()
 	except requests.exceptions.ConnectionError:
 		exit(f'\n [{M}!{C}] Koneksi internet bermasalah')
