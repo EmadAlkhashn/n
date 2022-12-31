@@ -300,7 +300,7 @@ def login_kamu():
                 for step in track(range(5)):
                 	sleep(1)
                 	step
-                os.system('python3 meta-ig.py')
+                os.system('python3 run.py')
             elif loginpil == '2':
                 login()
         ex,user=cekAPI(kuki)
@@ -677,7 +677,7 @@ class instagram:
 		idtar=f'╚═➣TOTAL ID  : [green]{len(internal)} [/green]'
 		idtar1=nel(idtar,style='')
 		sol().print(idtar1)
-		komb='[1] Name,Name123,Name1234\n[2] Name,Name123,Name1234,Name12345\n[3] Name,Name123,Name1234,Name12345,Name123456\n[4] Password Manual'
+		komb='[1] 𝐍𝐀𝐌𝐄,𝐍𝐀𝐌𝐄𝟏𝟐𝟑,𝐍𝐀𝐌𝐄𝟏𝟐𝟑𝟒\n[2] 𝐍𝐀𝐌𝐄,𝐍𝐀𝐌𝐄𝟏𝟐𝟑,𝐍𝐀𝐌𝐄𝟏𝟐𝟑𝟒,𝐍𝐀𝐌𝐄𝟏𝟐𝟑𝟒𝟓\n[3] 𝐍𝐀𝐌𝐄𝟏𝟐𝟑𝟒𝟓𝟔\n[4] 𝐏𝐀𝐒𝐒𝐖𝐎𝐑𝐃 𝐌𝐀𝐍𝐔𝐀𝐋'
 		sol().print(nel(komb,title='[green]List Password[/green]'))
 		c=input(f'╚═➣ 𝐄𝐍𝐓𝐄𝐑 : ')
 		if c=='1':
@@ -762,7 +762,7 @@ class instagram:
 		ses=requests.Session()
 		ua=random.choice(ugen5)
 		warna = random.choice([M, H, K, U, O,])
-		sys.stdout.write(f"\r╚═➣{loop}/{len(internal)}{C} {H} OK:{len(success)}{C} {K} CP:{len(checkpoint)} {N}"),sys.stdout.flush()
+		sys.stdout.write(f"\r╚═➣{C}{loop}/{len(internal)}{C} {H} OK:{len(success)}{C} {K} CP:{len(checkpoint)} {N}"),sys.stdout.flush()
 		try:
 			for pw in pas:
 				ncek=random.randint(1000000000, 99999999999)
