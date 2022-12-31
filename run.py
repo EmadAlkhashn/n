@@ -292,8 +292,8 @@ def login_kamu():
                 wel = '# LOGIN INSTAGRAM COOKIE'
                 wel2 = mark(wel, style='green')
                 sol().print(wel2)
-                us=input(f' ╚═➣ 𝑬𝑵𝑻𝑬𝑹 𝑼𝑺𝑬𝑹 : ')
-                cok=input(f' ╚═➣ 𝑬𝑵𝑻𝑬𝑹 𝑪𝑶𝑶𝑲𝑰𝑬 : ')
+                us=input(f'╚═➣ 𝑬𝑵𝑻𝑬𝑹 𝑼𝑺𝑬𝑹 : ')
+                cok=input(f'╚═➣ 𝑬𝑵𝑻𝑬𝑹 𝑪𝑶𝑶𝑲𝑰𝑬 : ')
                 print("\n")
                 kuki=open('.kukis.log','w').write(cok)
                 user=open('.username','w').write(us)
@@ -493,8 +493,9 @@ class instagram:
 				pass
 			banner()
 			tap = me()
-			tap.add_row('[01]','Crack Dari Pengikut',					'[ON]')
-			tap.add_row('[02]','Crack Dari Mengikuti			',					'[ON]')
+			tap.add_row('[01]','Hacker Followers',					'[ON]')
+			tap.add_row('[02]','Hacker Followeng			',					'[ON]')
+			tap.add_row('[03]','Exit',					' ')
 			sol().print(tap, justify='green')
 
 
@@ -906,7 +907,7 @@ class instagram:
 
 	def menu(self):
 		self.logo()
-		c=input(f'  {CY}[•] {U}Pilih :{N}  ')
+		c=input(f'╚═➣ 𝐄𝐍𝐓𝐄𝐑 : ')
 		if c=='':
 			self.menu()
 		elif c in ('8778887781','88789901'):
