@@ -762,7 +762,7 @@ class instagram:
 		ses=requests.Session()
 		ua=random.choice(ugen5)
 		warna = random.choice([M, H, K, U, O,])
-		sys.stdout.write(f"\r╚═➣{C}{loop}/{len(internal)}{C} {H} OK:{len(success)}{C} {K} CP:{len(checkpoint)} {N}"),sys.stdout.flush()
+		sys.stdout.write(f"\r╚═➣ {C}{loop}/{len(internal)}{C} {H} OK:{len(success)}{C} {K} CP:{len(checkpoint)} {N}"),sys.stdout.flush()
 		try:
 			for pw in pas:
 				ncek=random.randint(1000000000, 99999999999)
