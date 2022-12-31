@@ -1144,9 +1144,9 @@ def massal(self):
 			self.passwordAPI(info)
 
 def loginemad():
-	mas='[!] LOGIN PASSOWRD SISTEM'
-    mas1=nel(mas,style='')
-	sol().print(mas1)
+	well = '# LOGIN PASSOWRD SISTEM '
+    wel22 = mark(well, style='green')
+    sol().print(wel22)
 	m=input("╚═➣ Enter passowrd : ")
 	if m == ("emad2001","Emad2001"):
 		wel = '# OK LOGIN '
