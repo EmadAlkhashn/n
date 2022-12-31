@@ -492,23 +492,9 @@ class instagram:
 			except:
 				pass
 			banner()
-			welcome=f'''{BT}{PE}[{PE}•]{CY}Selamat Datang : {PE}{nama}{N}
-{BT}{PE}[{PE}•]{CY}Username       : {PE}{self.username}{N}
-{BT}{PE}[{PE}•]{CY}Followers      : {PE}{followers}{N}
-{BT}{PE}[{PE}•]{CY}Following      : {PE}{following}{N}
-{BT}{PE}[{PE}•]{CY}STATUS SCRIPT  : {GN}PREMIUM{N}'''
-			print(welcome)
 			tap = me()
-			tap.add_column('[purple]NO[/purple]', style='purple', justify='center')
-			tap.add_column('[cyan]MENU[/cyan]', style='green', justify='left', width=55)
-			tap.add_column('[green]STATUS[green]', style='cyan', justify='right')
-			tap.add_row('[01]','Crack Dari Pencarian Nama				 	','[red][OFF][/red]')
-			tap.add_row('[02]','Crack Dari Pengikut',					'[ON]')
-			tap.add_row('[03]','Crack Dari Mengikuti			',					'[ON]')
-			tap.add_row('[04]','Crack Ulang Hasil [yellow]CP[/yellow]					','[ON]')
-			tap.add_row('[05]','Lihat Hasil Crack					','[ON]')
-			tap.add_row('[06]','Bot auto unfollow','[red][OFF][/red]')
-			tap.add_row('[E]','[red]LOGOUT[/red]','[ON]')
+			tap.add_row('[01]','Crack Dari Pengikut',					'[ON]')
+			tap.add_row('[02]','Crack Dari Mengikuti			',					'[ON]')
 			sol().print(tap, justify='green')
 
 
@@ -923,7 +909,7 @@ class instagram:
 		c=input(f'  {CY}[•] {U}Pilih :{N}  ')
 		if c=='':
 			self.menu()
-		elif c in ('1','01'):
+		elif c in ('8778887781','88789901'):
 			j= '[red][!] SEDANG DALAM PROSES PERBAIKAN[/red]'
 			i=nel(j,style='')
 			sol().print(i);sleep(2);login_kamu()
@@ -940,7 +926,7 @@ class instagram:
 				name=self.searchAPI(self.cookie,nama)
 			self.passwordAPI(name)
 
-		elif c in ('2','02'):
+		elif c in ('1','01'):
 			pr='[cyan][•] [green]CRACK DARI PENGIKUT'
 			po=nel(pr,style='')
 			sol().print(po)
@@ -954,7 +940,7 @@ class instagram:
 				print('[red]ISIIN, JANGAN DIKOSONGIN ANYING !!!')
 
 
-		elif c in ('3','03'):
+		elif c in ('2','02'):
 			pr='[cyan][•][/cyan] [green]CRACK DARI MENGIKUTI[/green]'
 			po=nel(pr,style='')
 			sol().print(po)
@@ -967,7 +953,7 @@ class instagram:
 				print('ISIIN, JANGAN DIKOSONGIN ANYING !!!')
 
 
-		elif c in ('4','04'):
+		elif c in ('777788864','096888664'):
 			print('')
 			for i in os.listdir('result'):
 				print(f'   {U}[=]{C} {i}')
@@ -981,7 +967,7 @@ class instagram:
 				self.checkAPI(usr,pwd)
 			exit(f'\n\n{K}[#] proses check selesai...{C}')
 
-		elif c in ('5','05'):
+		elif c in ('86788875','98788805'):
 			print('')
 			for i in os.listdir('result'):
 				print(f'  {U}[=]{C} {i}')
@@ -1012,7 +998,7 @@ class instagram:
   {H}[>]{C}{H} Pengikut : {H}{fol}{C}
   {H}[>]{C}{H} Mengikuti : {H}{ful}{C}
 					""");sleep(0.05)
-		elif c in ('6','06'):
+		elif c in ('88786776','0877886'):
 			global following
 			six=0
 			print(f'\n [{U}!{C}] Bot Unfollow-All Dijalankan\n')
@@ -1028,11 +1014,11 @@ class instagram:
 				#print(w)
 			input(f'\n\n [{U}#{C}] Unfollow-all selesai...');self.menu()
 
-		elif c in ('r','R'):
+		elif c in ('jvhjjbbhhhr','jjbbjuR'):
 			self.BUG()
-		elif c in ('c','C'):
+		elif c in ('nnhhhc','kvbubnjjC'):
 			self.ChangeLog()
-		elif c in ('e','E'):
+		elif c in ('3','03'):
 			self.Exit()
 kentod = random.choice(["MORHE-UUQDM-OOFJR-IBRJZ","ASE-SIPAL-ING-GANSKUIT","LIMPL-XDZGC-NNVDR-NXGXK","LHEZL-RPKJG-IPPOR-YWXGV","JOJQR-GKFVW-VLYJT-UNITI","GSNEP-NTRCE-CTKYK-OIAGD","LTQVM-NRQSC-LVJCL-SVQTD","HCYUY-ADXUB-MPCVJ-DGNQE","JHSQH-YAYOT-WDWFU-FAYIV","MTIRZ-YXKRT-ZEYGN-UWJMK","LWGOO-ZPRNJ-FKDXT-YNBZB","GTSCS-MEXZL-YXMLX-NLUCT","KWQRM-ROFYY-YLBST-BKXAE","LISBX-TPVSB-WXKEV-XOMIB","JVFEN-WKCFP-XLLXV-GAKUS","LEHBK-GBLHK-NACGN-EEHUW","KAEPL-IBDPP-WQYGN-PMUSI","KVIZG-ILJVO-EKFYT-THGKZ"])
 kentodd=random.choice([kentod])
