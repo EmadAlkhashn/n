@@ -1147,10 +1147,8 @@ def loginemad():
 	banner()
 	m=input("╚═➣ Enter passowrd : ")
 	if m == ("emad2001","Emad2001"):
-        time.sleep(3)
 		login_kamu()
 	else:
-        time.sleep(3)
         loginemad()
 		
 	
