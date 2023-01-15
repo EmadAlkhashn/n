@@ -192,7 +192,7 @@ def jalan(keliling):
 # BANNER
 def banner():
 	clear()
-	mas='  \n \n //'
+	mas='𝐇𝐀𝐂𝐊𝐄𝐑 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌\n𝐓𝐎𝐎𝐋𝐒 𝐄𝐌𝐀𝐃\n𝐃𝐀𝐓𝐄 𝟏/𝟏/𝟐𝟎𝟐𝟑'
 	mas1=nel(mas,style='')
 	sol().print(mas1)
 	
@@ -292,8 +292,8 @@ def login_kamu():
                 wel = '# LOGIN INSTAGRAM COOKIE'
                 wel2 = mark(wel, style='green')
                 sol().print(wel2)
-                us=input(f'   : ')
-                cok=input(f'   : ')
+                us=input(f' 𝐄𝐍𝐓𝐄𝐑 𝐔𝐒𝐄𝐑 : ')
+                cok=input(f' 𝐄𝐍𝐓𝐄𝐑 𝐂𝐎𝐎𝐊𝐈𝐄 : ')
                 print("\n")
                 kuki=open('.kukis.log','w').write(cok)
                 user=open('.username','w').write(us)
