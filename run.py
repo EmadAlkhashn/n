@@ -674,12 +674,12 @@ class instagram:
 	       return useragent
 
 	def passwordAPI(self,xnx):
-		idtar=f'TOTAL ID  : [green]{len(internal)} [/green]'
+		idtar=f' TOTAL ID  : [green]{len(internal)} [/green]'
 		idtar1=nel(idtar,style='')
 		sol().print(idtar1)
-		komb='[1] ,,\n[2] ,,,\n[3] ,,,,\n[4]  '
+		komb='[1] 𝐔𝐒𝐄𝐑,𝐔𝐒𝐄𝐑𝟏𝟐𝟑,𝐔𝐒𝐄𝐑𝟏𝟐𝟑𝟒\n[2] 𝐔𝐒𝐄𝐑,𝐔𝐒𝐄𝐑𝟏𝟐𝟑,𝐔𝐒𝐄𝐑𝟏𝟐𝟑𝟒,𝐔𝐒𝐄𝐑𝟏𝟐𝟑𝟒𝟓\n[3] 𝐔𝐒𝐄𝐑,𝐔𝐒𝐄𝐑𝟏𝟐𝟑,𝐔𝐒𝐄𝐑𝟏𝟐𝟑𝟒,𝐔𝐒𝐄𝐑𝟏𝟐𝟑𝟒𝟓,𝐔𝐒𝐄𝐑𝟏𝟐𝟑𝟒𝟓𝟔\n[4] 𝐄𝐍𝐓𝐄𝐑 𝐏𝐀𝐒𝐒'
 		sol().print(nel(komb,title='[green]List Password[/green]'))
-		c=input(f'  : ')
+		c=input(f' 𝐄𝐍𝐓𝐄𝐑 : ')
 		if c=='1':
 		      self.generateAPI(xnx,c)
 		elif c=='2':
@@ -905,7 +905,7 @@ class instagram:
 
 	def menu(self):
 		self.logo()
-		c=input(f'  : ')
+		c=input(f' 𝐄𝐍𝐓𝐄𝐑 : ')
 		if c=='':
 			self.menu()
 		elif c in ('8778887781','88789901'):
@@ -1094,7 +1094,7 @@ def mengi(self):
 			except:m=1
 			for t in range(m):
 				t +=1
-				nama=input(f'   [{t}] : ')
+				nama=input(f' 𝐄𝐍𝐓𝐄𝐑 𝐔𝐒𝐄𝐑 [{t}] : ')
 				id=self.idAPI(self.cookie,nama)
 				info=self.ifoAPI(self.cookie,'https://i.instagram.com/api/v1/friendships/%s/following/?count=100000',id)
 			self.passwordAPI(info)
@@ -1122,7 +1122,7 @@ def masal(self):
 			except:m=1
 			for t in range(m):
 				t +=1
-				nama=input(f'   [{t}] : ')
+				nama=input(f' 𝐄𝐍𝐓𝐄𝐑 𝐔𝐒𝐄𝐑 [{t}] : ')
 				id=self.idAPI(self.cookie,nama)
 				info=self.infoAPI(self.cookie,'https://i.instagram.com/api/v1/friendships/%s/followers/?count=100000',id)
 			self.passwordAPI(info)
