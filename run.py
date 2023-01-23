@@ -584,7 +584,7 @@ class instagram:
 			except requests.exceptions.ConnectionError:
 				exit(f"\n{M}[!] Koneksi internet bermasalah{C}")
 			except Exception as e:
-				exit(f"\n{M}[!] Username yang anda masukan tidak di temukan pastikan target bersifat publik{C}")
+				exit(f"\n{M}[!] The username you entered was not found \n{C}")
 			return idx
 		else:lisensi()
 
@@ -623,7 +623,7 @@ class instagram:
 			except requests.exceptions.ConnectionError:
 				exit(f'\n{M}[!] Koneksi internet bermasalah{C}')
 			except Exception as e:
-				print(f'\n{M}[!] Username yang anda masukan tidak di temukan{N}')
+				print(f'\n{M}[!] The username you entered was not found\n{N}')
 			return internal
 		else:lisensi()
 		
@@ -662,7 +662,7 @@ class instagram:
 			except requests.exceptions.ConnectionError:
 				exit(f'\n{M}[!] Koneksi internet bermasalah{C}')
 			except Exception as e:
-				print(f'\n{M}[!] Username yang anda masukan tidak di temukan{N}')
+				print(f'\n{M}[!] The username you entered was not found\n{N}')
 			return internal
 		else:lisensi()
 	
