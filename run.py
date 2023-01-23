@@ -520,10 +520,10 @@ class instagram:
 		exit()
 
 	def Exit(self):
-		kel='[?] Apakah anda yakin ingin keluar ?'
+		kel='  Are you sure you want out ?'
 		kel1=nel(kel,style='red')
 		sol().print(kel1)
-		x=input(f'\n{N}[•] Jawaban [y/t] : {C}')
+		x=(f'y')
 		if x in ('y','Y'):
 			os.remove('.kukis.log')
 			os.remove('.username')
